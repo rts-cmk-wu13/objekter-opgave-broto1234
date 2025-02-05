@@ -1,0 +1,9 @@
+.advantages {
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 2rem;
+}
+
+.advantages--card {
+  grid-template-columns: repeat(3, 1fr);
+}

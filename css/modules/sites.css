@@ -1,0 +1,31 @@
+.sites {
+  width: 90%;
+  margin-inline: auto;
+  margin-block: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.site__text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.sites__head {
+  width: 15ch;
+  font-size: 1rem;
+}
+
+.place__img {
+  height: 15rem;
+}
+
+.place__head {
+  font-size: 0.7rem;
+}
+
+.palce--para {
+  font-size: 0.5rem;
+}

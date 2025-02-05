@@ -1,0 +1,29 @@
+.facilities {
+  width: 90%;
+  margin:2rem auto;
+}
+.facilities__head {
+  margin-block-end: 2.5rem;
+}
+
+.facility__img {
+  width: 1rem;
+  height: auto;
+  margin-block-end: 1.5rem;
+}
+
+.facilities__card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+.facility__card--body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.facility__head {
+  font-size: 1rem;
+}
